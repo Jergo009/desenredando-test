@@ -24,14 +24,14 @@ const Working = () => {
                   Nuestro enfoque combina herramientas psicológicas, entrevistas especializadas y criterios éticos para fortalecer equipos de trabajo saludables y productivos.
                 </p>
 
-                <h6>¿Quieres saber más?</h6>
+                <h6>!Todos tenemos talento, pero podemos potenciarlo!</h6>
               </div>
 
-              <div className="working_btn">
+              {/* <div className="working_btn">
                 <a href="/contuct-us" className="sara-btn">
                   Enterate aquí
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-xxl-6">
