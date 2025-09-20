@@ -7,13 +7,13 @@ import Blog from "../component/BlogOne";
 
 const ServicesPage = () => {
   const breadcrumbs = [
-    { label: "Home", link: "/" },
+    { label: "Inicio", link: "/" },
     { label: <i className="fa-solid fa-angle-right"></i>, link: null },
-    { label: "Services", link: null },
+    { label: "Tipos de Consulta", link: null },
   ];
   return (
     <>
-      <PageHeader title="Servicios" breadcrumbs={breadcrumbs}></PageHeader>
+      <PageHeader title="Tipos de Consulta" breadcrumbs={breadcrumbs}></PageHeader>
       <InnerServices></InnerServices>
       <Faq></Faq>
       <Testimonials addClass="inner_testimonails"></Testimonials>

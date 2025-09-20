@@ -14,9 +14,9 @@ import Pagination from "../component/Pagination";
 
 const BlogGridPage = () => {
   const breadcrumbs = [
-    { label: "Home", link: "/" },
+    { label: "Inicio", link: "/" },
     { label: <i className="fa-solid fa-angle-right"></i>, link: null },
-    { label: "Blog Grid", link: null },
+    { label: "Tips", link: null },
   ];
 
   const blogData = [
@@ -33,7 +33,7 @@ const BlogGridPage = () => {
 
   return (
     <>
-      <PageHeader title="Blog Grid" breadcrumbs={breadcrumbs}></PageHeader>
+      <PageHeader title="Tips" breadcrumbs={breadcrumbs}></PageHeader>
       <BlogItem blogData={blogData} title="blog-grid"></BlogItem>
       <Pagination></Pagination>
     </>

@@ -7,13 +7,13 @@ import Blog from "../component/BlogOne";
 
 const AboutPage = () => {
   const breadcrumbs = [
-    { label: "Home", link: "/" },
+    { label: "Inicio", link: "/" },
     { label: <i className="fa-solid fa-angle-right"></i>, link: null },
-    { label: "About Us", link: null },
+    { label: "Quines somos", link: null },
   ];
   return (
     <>
-      <PageHeader title="About Us" breadcrumbs={breadcrumbs}></PageHeader>
+      <PageHeader title="Quienes Somos" breadcrumbs={breadcrumbs}></PageHeader>
       <AbouUsTwo></AbouUsTwo>
       <ChoseTwo addClass="inner_chose"></ChoseTwo>
       <Working></Working>
