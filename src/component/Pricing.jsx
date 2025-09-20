@@ -11,7 +11,7 @@ const Pricing = () => {
           <div className="col-xxl-6">
             <div className="pricing_head">
               <h2 className="main_titel">
-                Choose a <span> Pricing Plan</span> that works for you
+                Elije el <span> tipo de ataención </span> que necesitas
               </h2>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Pricing = () => {
                   aria-controls="pills-home"
                   aria-selected="true"
                 >
-                  Monthly
+                  Individual
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -47,7 +47,7 @@ const Pricing = () => {
                   aria-controls="pills-profile"
                   aria-selected="false"
                 >
-                  Yearly
+                  Grupal
                 </button>
               </li>
             </ul>
@@ -67,12 +67,12 @@ const Pricing = () => {
                   <div className="col-md-6 col-lg-4 col-xxl-4">
                     <div className="pricing_item">
                       <div className="pricing_item_top">
-                        <h6 className="text_xl">Starter</h6>
+                        <h6 className="text_xl">Atención Psicologica</h6>
                         <h3 className="text_3xl">
-                          <span className="dollor_sign">$</span> 5.00
-                          <span>/Per Month</span>
+                          <span className="dollor_sign">Q.</span> 275.00
+                          <span>/Por Sesion</span>
                         </h3>
-                        <p>Features Description</p>
+                        <p>1 Sesion/Por Semana</p>
                       </div>
 
                       <ul className="pricing_item_list">
@@ -80,42 +80,42 @@ const Pricing = () => {
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          10 Social Media Account
+                          Diagnostico inicial
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          Free Platform Access
+                          Planes de apoyo
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          Report analytics
+                          Evaluaciones Adhoc
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check2} alt="icon" />
                           </span>
-                          Keyword research
+                          Tratamiento del estres
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check2} alt="icon" />
                           </span>
-                          Premium consulting
+                          Sesiones especificas
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check2} alt="icon" />
                           </span>
-                          24/7 Customer Support
+                          24/7 Asistencia de emergencia
                         </li>
                       </ul>
 
                       <Link to="/pricing" className="sara-btn sara-btn_black">
-                        Get Started
+                        Solicitar Ahora
                       </Link>
                     </div>
                   </div>

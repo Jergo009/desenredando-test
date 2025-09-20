@@ -33,8 +33,8 @@ const Hero = () => {
             </div>
 
             <div className="hero_btn_main">
-              <Link to="/contuct-us" className="sara-btn">
-                Contactanos Aqui
+              <Link to="/pricing" className="sara-btn">
+                Solicita tu sesion
               </Link>
               <Link to="/about" className="sara-btn__border">
                 Descubre mas
