@@ -37,7 +37,7 @@ const Customers = ({ addClass }) => {
           <div className="col-xxl-12">
             <div className="customers_titel">
               <h2>
-                Trusted by <span>15,000+</span> Customers
+                Empresas que <span>confian</span> en nosotros
               </h2>
             </div>
           </div>

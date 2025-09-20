@@ -14,8 +14,8 @@ const PricingPage = () => {
     <>
       <PageHeader title="Tipos de Sesiones" breadcrumbs={breadcrumbs}></PageHeader>
       <Pricing></Pricing>
-      <Testimonials addClass="inner_testimonails"></Testimonials>
-      <BlogOne></BlogOne>
+      {/* <Testimonials addClass="inner_testimonails"></Testimonials>
+      <BlogOne></BlogOne> */}
     </>
   );
 };

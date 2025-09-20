@@ -17,21 +17,19 @@ const Working = () => {
             <div className="col-xxl-6">
               <div className="working_head">
                 <h2 className="main_titel">
-                  Let’s see <span>How do</span> , We are works.
+                  Cual es <span>Nuestro</span>, enfoque.
                 </h2>
 
                 <p>
-                  Sara specializes in data science, machine learning, and
-                  artificial intelligence, delivering business solutions with
-                  blazing speed and striking results.
+                  Nuestro enfoque combina herramientas psicológicas, entrevistas especializadas y criterios éticos para fortalecer equipos de trabajo saludables y productivos.
                 </p>
 
-                <h6>Want to learn more about us?</h6>
+                <h6>¿Quieres saber más?</h6>
               </div>
 
               <div className="working_btn">
                 <a href="/contuct-us" className="sara-btn">
-                  Get in Touch
+                  Enterate aquí
                 </a>
               </div>
             </div>

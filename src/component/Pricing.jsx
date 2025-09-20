@@ -67,12 +67,68 @@ const Pricing = () => {
                   <div className="col-md-6 col-lg-4 col-xxl-4">
                     <div className="pricing_item">
                       <div className="pricing_item_top">
-                        <h6 className="text_xl">Atención Psicologica</h6>
+                        <h6 className="text_xl">Terapia Infantil <i class="bi bi-backpack2"></i></h6> 
                         <h3 className="text_3xl">
-                          <span className="dollor_sign">Q.</span> 275.00
-                          <span>/Por Sesion</span>
+                          <span className="dollor_sign">Q.</span> 300.00
+                          <span>/1 Sesion</span>
                         </h3>
-                        <p>1 Sesion/Por Semana</p>
+                        <p>Q.500/2 Sesiones <i class="bi bi-suit-heart"></i></p>
+                      </div>
+
+                      <ul className="pricing_item_list">
+                        <li className="text_lg">
+                          <span>
+                            <img src={check} alt="icon" />
+                          </span>
+                          Diagnostico inicial 
+                        </li>
+                        <li className="text_lg">
+                          <span>
+                            <img src={check} alt="icon" />
+                          </span>
+                          Planes de apoyo
+                        </li>
+                        <li className="text_lg">
+                          <span>
+                            <img src={check} alt="icon" />
+                          </span>
+                          Evaluaciones Adhoc
+                        </li>
+                        <li className="text_lg">
+                          <span>
+                            <img src={check} alt="icon" />
+                          </span>
+                          Tratamiento del estres
+                        </li>
+                        <li className="text_lg">
+                          <span>
+                            <img src={check} alt="icon" />
+                          </span>
+                          Sesiones especificas
+                        </li>
+                        <li className="text_lg">
+                          <span>
+                            <img src={check2} alt="icon" />
+                          </span>
+                          24/7 Asistencia de emergencia
+                        </li>
+                      </ul>
+
+                      <Link to="/pricing" className="sara-btn sara-btn_black">
+                        Solicitar Ahora
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="col-md-6 col-lg-4 col-xxl-4">
+                    <div className="pricing_item pricing_item--black">
+                      <div className="pricing_item_top">
+                        <h6 className="text_xl">Terapia Individual <i class="bi bi-person-arms-up"></i></h6>
+                        <h3 className="text_3xl">
+                          <span className="dollor_sign">Q</span> 300.00
+                          <span>/1 Sesion</span>
+                        </h3>
+                        <p>Q.1,000/4 Sesiones <i class="bi bi-suit-heart"></i></p>
                       </div>
 
                       <ul className="pricing_item_list">
@@ -96,82 +152,26 @@ const Pricing = () => {
                         </li>
                         <li className="text_lg">
                           <span>
-                            <img src={check2} alt="icon" />
+                            <img src={check} alt="icon" />
                           </span>
                           Tratamiento del estres
                         </li>
                         <li className="text_lg">
                           <span>
-                            <img src={check2} alt="icon" />
+                            <img src={check} alt="icon" />
                           </span>
                           Sesiones especificas
                         </li>
                         <li className="text_lg">
                           <span>
-                            <img src={check2} alt="icon" />
+                            <img src={check} alt="icon" />
                           </span>
                           24/7 Asistencia de emergencia
                         </li>
                       </ul>
 
-                      <Link to="/pricing" className="sara-btn sara-btn_black">
-                        Solicitar Ahora
-                      </Link>
-                    </div>
-                  </div>
-
-                  <div className="col-md-6 col-lg-4 col-xxl-4">
-                    <div className="pricing_item pricing_item--black">
-                      <div className="pricing_item_top">
-                        <h6 className="text_xl">Premium</h6>
-                        <h3 className="text_3xl">
-                          <span className="dollor_sign">$</span> 25.00
-                          <span>/Per Month</span>
-                        </h3>
-                        <p>Features Description</p>
-                      </div>
-
-                      <ul className="pricing_item_list">
-                        <li className="text_lg">
-                          <span>
-                            <img src={check} alt="icon" />
-                          </span>
-                          10 Social Media Account
-                        </li>
-                        <li className="text_lg">
-                          <span>
-                            <img src={check} alt="icon" />
-                          </span>
-                          Free Platform Access
-                        </li>
-                        <li className="text_lg">
-                          <span>
-                            <img src={check} alt="icon" />
-                          </span>
-                          Report analytics
-                        </li>
-                        <li className="text_lg">
-                          <span>
-                            <img src={check} alt="icon" />
-                          </span>
-                          Keyword research
-                        </li>
-                        <li className="text_lg">
-                          <span>
-                            <img src={check} alt="icon" />
-                          </span>
-                          Premium consulting
-                        </li>
-                        <li className="text_lg">
-                          <span>
-                            <img src={check} alt="icon" />
-                          </span>
-                          24/7 Customer Support
-                        </li>
-                      </ul>
-
                       <Link to="/pricing" className="sara-btn">
-                        Get Started
+                        Solicitar Ahora
                       </Link>
                     </div>
                   </div>
@@ -179,12 +179,12 @@ const Pricing = () => {
                   <div className="col-md-6 col-lg-4 col-xxl-4">
                     <div className="pricing_item">
                       <div className="pricing_item_top">
-                        <h6 className="text_xl">Premium Plan</h6>
+                        <h6 className="text_xl">Terapia del Lenguaje <i class="bi bi-flower1"></i></h6>
                         <h3 className="text_3xl">
-                          <span className="dollor_sign">$</span> 40.00
-                          <span>/Per Month</span>
+                          <span className="dollor_sign">Q.</span> 350.00
+                          <span>/1 Sesion</span>
                         </h3>
-                        <p>Features Description</p>
+                        <p>Q.1,200/4 Sesiones <i class="bi bi-suit-heart"></i></p>
                       </div>
 
                       <ul className="pricing_item_list">
@@ -192,42 +192,42 @@ const Pricing = () => {
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          10 Social Media Account
+                          Diagnostico inicial
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          Free Platform Access
+                          Planes de apoyo
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          Report analytics
+                          Evaluaciones Adhoc
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          Keyword research
+                          Tratamiento del estres
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          Premium consulting
+                          Sesiones especificas
                         </li>
                         <li className="text_lg">
                           <span>
                             <img src={check} alt="icon" />
                           </span>
-                          24/7 Customer Support
+                          24/7 Asistencia de emergencia
                         </li>
                       </ul>
 
                       <Link to="/pricing" className="sara-btn sara-btn_black">
-                        Get Started
+                        Solicitar Ahora
                       </Link>
                     </div>
                   </div>
@@ -244,12 +244,12 @@ const Pricing = () => {
                   <div className="col-md-6 col-lg-4 col-xxl-4">
                     <div className="pricing_item">
                       <div className="pricing_item_top">
-                        <h6 className="text_xl">Starter</h6>
+                        <h6 className="text_xl">Terapia de Pareja <i class="bi bi-people"></i></h6>
                         <h3 className="text_3xl">
-                          <span className="dollor_sign">$</span> 5.00
-                          <span>/Per Month</span>
+                          <span className="dollor_sign">Q</span> 400.00
+                          <span>/1 Sesion</span>
                         </h3>
-                        <p>Features Description</p>
+                        <p>Q. 1,400/4 Sesiones</p>
                       </div>
 
                       <ul className="pricing_item_list">
@@ -292,7 +292,7 @@ const Pricing = () => {
                       </ul>
 
                       <Link to="/pricing" className="sara-btn sara-btn_black">
-                        Get Started
+                        Solicitar Ahora
                       </Link>
                     </div>
                   </div>
@@ -300,12 +300,12 @@ const Pricing = () => {
                   <div className="col-md-6 col-lg-4 col-xxl-4">
                     <div className="pricing_item pricing_item--black">
                       <div className="pricing_item_top">
-                        <h6 className="text_xl">Premium</h6>
+                        <h6 className="text_xl">Reclutamiento de Talento <i class="bi bi-person-check"></i></h6>
                         <h3 className="text_3xl">
-                          <span className="dollor_sign">$</span> 25.00
-                          <span>/Per Month</span>
+                          <span className="dollor_sign"></span> Variable
+                          <span> al proceso</span>
                         </h3>
-                        <p>Features Description</p>
+                        <p>Caracteristicas</p>
                       </div>
 
                       <ul className="pricing_item_list">
@@ -348,7 +348,7 @@ const Pricing = () => {
                       </ul>
 
                       <Link to="/pricing" className="sara-btn">
-                        Get Started
+                       Solicitar Ahora
                       </Link>
                     </div>
                   </div>
@@ -356,10 +356,10 @@ const Pricing = () => {
                   <div className="col-md-6 col-lg-4 col-xxl-4">
                     <div className="pricing_item">
                       <div className="pricing_item_top">
-                        <h6 className="text_xl">Premium Plan</h6>
+                        <h6 className="text_xl">Talleres <i class="bi bi-mortarboard"></i></h6>
                         <h3 className="text_3xl">
-                          <span className="dollor_sign">$</span> 40.00
-                          <span>/Per Month</span>
+                          <span className="dollor_sign"></span> %
+                          <span> al Tema</span>
                         </h3>
                         <p>Features Description</p>
                       </div>
@@ -404,7 +404,7 @@ const Pricing = () => {
                       </ul>
 
                       <Link to="/pricing" className="sara-btn sara-btn_black">
-                        Get Started
+                        Solicitar Ahora
                       </Link>
                     </div>
                   </div>
