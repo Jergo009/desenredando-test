@@ -44,6 +44,7 @@ function App() {
           <Route path="single-member" element={<SingleMemberPage />} />
           <Route path="team" element={<TeamMemberPage />} />
           <Route path="testimonial" element={<TestimonialPage />} />
+          <Route path="desenredando-test" element={<HomeOne />} />
         </Route>
         <Route path="*" element={<Error404 />} />
       </Routes>
